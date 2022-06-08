@@ -1,0 +1,10 @@
+#최소 Math.min()
+#배열은 넣을 수 없기 때문에, ...arr(전개 연산자 사용)
+1)Math.min(...arr);
+2)Math.min.apply(null, arr);
+
+Function.prototype.apply()
+인수들의 단일 배열을 받는다
+
+유사 개념 call()
+함수에 전달될 list를 받는다

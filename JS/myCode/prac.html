@@ -1,0 +1,25 @@
+<!-- 답지와 다른 풀이이나, 중요한 개념이 많이 있으니 엄청 중요한 문제  -->
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>출력결과</title>
+</head>
+
+<body>
+    <script>
+        function solution(arr) {
+            let answer, count = 0
+            for (let x of arr) {
+                if (x % 10 === 3)
+                    count += 1
+            }
+            answer = count
+            return answer
+        }
+        let arr = [25, 23, 11, 47, 53, 17, 33];
+        console.log(solution(arr));
+    </script>
+</body>
+
+</html>
