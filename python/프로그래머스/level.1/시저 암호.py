@@ -7,7 +7,7 @@ for i in tmp:
     a = ord(i) + n
 
     # if a > 90:
-    #     ttmp.append(65+n-1)
+    #     ttmp.append(65+n-1)l
     # elif a > 122:
     #     ttmp.append(97+n-1)
     # elif a == 32:
