@@ -1,10 +1,13 @@
-s = "try hello world"
+def solution(s):
+    ans = []
+    s = list(s.split(" "))
+    for i in s:
+        for j in range(len(i)):
+            if j % 2 == 0:
+                ans.append(i[j].upper())
+            else:
+                ans.append(i[j].lower())
+        ans.append(" ")
+    ans = ans[:-1]
 
-# "TrY HeLlO WoRlD"
-
-tmp = list(s.split())
-
-print(tmp)
-
-for i in tmp:
-    for j in i:
+    return "".join(ans)
