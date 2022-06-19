@@ -6,8 +6,9 @@ s = input()
 res = 0
 for x in s:
     if x.isdecimal():
-        res = res*10+int(x)
+        res = res*10+int(x)  # 첫 자리 0 무시
 print(res)
+
 cnt = 0
 for i in range(1, res+1):
     if res % i == 0:
