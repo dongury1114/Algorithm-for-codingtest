@@ -15,6 +15,7 @@ for event in record:
     if action == "Enter" or action == "Change":
         nickname = info[2]
         userDB[userid] = nickname
+
 # for event in record:
 #     info = event.split()
 #     action, userid = info[0], info[1]
