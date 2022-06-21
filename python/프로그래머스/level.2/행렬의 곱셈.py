@@ -7,3 +7,4 @@ for i in range(len(arr1)):
         for k in range(len(arr1[0])):
             answer[i][j] += (arr1[i][k] * arr2[k][j])
 print(answer)
+*
